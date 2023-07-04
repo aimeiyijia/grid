@@ -1,7 +1,8 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
+.container,
+.container-fluid,
+.row,
+.row-no-gutters,
+[class*="col-"] {
   box-sizing: border-box;
 }
 
